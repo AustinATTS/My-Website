@@ -1,0 +1,409 @@
+h1, h2, h3, h4 {
+    font-weight: 600;
+}
+
+h2, h5, p {
+    color: #333333;
+}
+
+.af, .header, .left img, .navigation li:hover::after, .w img, iframe {
+    width: 100%;
+}
+
+.button, .frm input[type=submit], .navigation a {
+    color: #F76000;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.cf label, .navigation a {
+    font-family: "Segoe UI Black";
+}
+
+.collumn, .right div {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI";
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    margin: 30px 0;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    text-align: left;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+body {
+    background: #CCCCCC;
+}
+
+.header {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.m {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 9, 30, 0.7)), url("assets/general/header.jpg");
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 150px;
+}
+
+.navigation {
+    flex: 1;
+    text-align: right;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.navigation li::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #333333;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.body {
+    width: 90%;
+    color: #F76000;
+    position:absolute;
+    top: 50%; left:50%; transform:translate(-50%, -50%);
+    text-align: center;
+}
+
+.body h1 {
+    font-size: 62px;
+}
+
+.body p {
+    margin: 10px 0 40px;
+    color: #F76000;
+}
+
+.button, .frm input[type=submit] {
+    display: inline-block;
+    border: 1px solid #F76000;
+    padding: 12px 34px;
+    background: 0 0;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.content, form {
+    margin: auto;
+}
+
+.button:hover, .frm input[type=submit]:hover {
+    border: 1px solid  #333333;
+    background: #333333;
+    transition: 1s;
+}
+
+nav .fa {
+    display: none;
+}
+
+@media (max-height: 600px) {
+    .body h1 {
+        font-size: 20px;
+    }
+}
+
+.content {
+    width: 80%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.c, .f {
+    width: 100%;
+}
+
+.a p, .four, .o, .w p {
+    text-align: left;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.collumn {
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    transition: 0.5s;
+}
+
+.three {
+    flex-basis: 31%;
+}
+
+.o {
+    background: #F76000;
+    opacity: 0.75;
+}
+
+.four:hover, .three:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.h {
+    background: #CCCCCC;
+    max-height: 275px;
+    opacity: 0.7;
+}
+
+.four img, .h img, .t img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.h p {
+    opacity: 0;
+}
+
+.h:hover p {
+    opacity: 1;
+    transition: 1.5s;
+}
+
+.h:hover {
+    max-height: 1000px;
+    transition: max-height 1s linear;
+}
+
+.h:hover img {
+    transform: translate(0, -10%);
+    transition: 0.5s;
+}
+
+@media (max-width: 900px) {
+    .navigation li, nav .fa {
+        display: block;
+    }
+    .body h1 {
+        font-size: 20px;
+    }
+    .navigation {
+        position: fixed;
+        background: #F76000;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 2s;
+    }
+    .navigation a {
+        color: #333333;
+    }
+    nav .fa {
+        color: #FFFFFF;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .navigation ul {
+        padding: 30px;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .h {
+        max-height: 1000000px;
+    }
+}
+
+.c {
+    margin-bottom: 50px;
+}
+
+.f {
+    padding: 30px 0;
+    background: #333333;
+}
+
+.bf, form {
+    width: 80%;
+}
+
+.f h4, .f p {
+    color: #CCCCCC;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #F76000;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.s {
+    min-height: 75vh;
+    background-image: linear-gradient(rgba(4, 8, 30, 0.7), rgba(4, 9, 30, 0.7)), url("assets/general/sub-header.jpg");
+}
+
+@media(max-width: 900px) {
+    .s h1 {
+        font-size: 24px;
+    }
+}
+
+.two {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.w h1 {
+    padding-top: 0;
+}
+
+.w p {
+    padding: 15px 0 25px;
+}
+
+.form {
+    border: 1px solid #CCCCCC;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+
+.af td {
+    padding-left: 5px;
+}
+
+.cf label {
+    float: left;
+}
+
+.frm input, .frm textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: 0;
+    background: #FFFFFF;
+    resize: vertical;
+    display: inline;
+}
+
+.a p, .four p, .left p {
+    padding: 0;
+}
+
+.af input[type=radio] {
+    width: auto;
+    margin-left: 20px;
+    align-content: center;
+}
+
+.a div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.fa, .fa-regular {
+    font-size: 28px;
+    color: #F76000;
+    margin: 10px 30px 10px 10px;
+}
+
+.four {
+    flex-basis: 23%;
+}
+
+.left, .right {
+    text-align: justify;
+}
+
+.four h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.left {
+    flex-basis: 65%;
+}
+
+.right {
+    flex-basis: 32%;
+}
+
+.right h3 {
+    background: #F76000;
+    color: #FFFFFF;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.right div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #333333;
+    padding: 8px;
+}
+
+.img img {
+    border-radius: 50%;
+}
+
+.h p, .t {
+    text-align: left;
+}
