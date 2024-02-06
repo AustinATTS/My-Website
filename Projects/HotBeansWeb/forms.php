@@ -27,13 +27,34 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['formContact'])) {
 								<a href='https://www.austinatts.co.uk/Projects/HotBeansWeb'>
 									<img src='https://www.austinatts.co.uk/Projects/HotBeansWeb/assets/general/logo.png' alt='Company Logo' style='max-width: 200px;'>
 								</a>
-								<h1 style='font-family: Segoe UI; color: #F76000; padding-left: 2.5%;'>Job Application Form Submission</h1>
+								<h1 style='font-family: Segoe UI; color: #F76000; padding-left: 2.5%;'>
+									Job Application Form Submission
+ 								</h1>
 							</div>
 							<p style='padding-left: 5%; padding-top: 2.5%;'>
-								<strong>First Name:</strong> $first_name<br>
-								<br><strong>Last Name:</strong> $last_name<br>
-								<br><strong>Email:</strong> $email<br>
-								<br><strong>Message:</strong> $content<br>
+								<strong>
+									First Name:
+ 								</strong>
+ 								$first_name
+ 									<br>
+									<br>
+	 							<strong>
+	 								Last Name:
+	  							</strong>
+	  							$last_name
+	   								<br>
+									<br>
+	 							<strong>
+	 								Email:
+	  							</strong>
+	  							$email
+  									<br>
+									<br>
+	 							<strong>
+	 								Message:
+	  							</strong>
+	  							$content
+	  								<br>
 							</p>
 						</body>
 					</html>";
@@ -81,20 +102,76 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['formApply'])) {
 								<a href='https://www.austinatts.co.uk/Projects/HotBeansWeb'>
 									<img src='https://www.austinatts.co.uk/Projects/HotBeansWeb/assets/general/logo.png' alt='Company Logo' style='max-width: 200px;'>
 								</a>
-								<h1 style='font-family: Segoe UI; color: #F76000; padding-left: 2.5%;'>Job Application Form Submission</h1>
+								<h1 style='font-family: Segoe UI; color: #F76000; padding-left: 2.5%;'>
+									Job Application Form Submission
+								</h1>
 							</div>
 							<p style='padding-left: 5%; padding-top: 2.5%;'>
-								<strong>First Name:</strong> $first_name<br>
-								<br><strong>Last Name:</strong> $last_name<br>
-								<br><strong>Email:</strong> $email<br>
-								<br><strong>Position:</strong> $position<br>
-								<br><strong>Salary:</strong> $salary<br>
-								<br><strong>Start Date:</strong> $start_date<br>
-								<br><strong>Phone:</strong> $phone<br>
-								<br><strong>Country:</strong> $country<br>
-								<br><strong>Willing to Relocate:</strong> $relocate<br>
-								<br><strong>Last Company Worked For:</strong> $organization<br>
-								<br><strong>Reference/Comments/Questions:</strong><br><br>$reference
+								<strong>
+									First Name:
+	 							</strong>
+ 								$first_name
+ 									<br>
+									<br>
+								<strong>
+									Last Name:
+	 							</strong>
+	 							$last_name
+	 								<br>
+									<br>
+								<strong>
+									Email:
+	 							</strong>
+	 							$email
+	  								<br>
+									<br>
+								<strong>
+									Position:
+	 							</strong>
+	 							$position
+	 								<br>
+									<br>
+								<strong>
+									Salary:
+	 							</strong>
+	 							$salary
+	 								<br>
+									<br>
+								<strong>
+									Start Date:
+	 							</strong>
+	 							$start_date
+	 								<br>
+									<br>
+								<strong>
+									Phone:
+	 							</strong>
+	 								$phone
+	  								<br>
+									<br>
+								<strong>
+									Country:
+	 							</strong>
+	 							$country
+	 								<br>
+									<br>
+								<strong>
+									Willing to Relocate:
+	 							</strong> $relocate
+	 								<br>
+									<br>
+								<strong>
+									Last Company Worked For:
+	 							</strong>
+	 							$organization
+	 								<br>
+									<br>
+								<strong>
+									Reference/Comments/Questions:
+	 							</strong>
+	 								<br>
+	  								<br>
+	   							$reference
 							</p>
 						</body>
 					</html>";
