@@ -4,6 +4,7 @@ h1, h2, h3, h4 {
 
 h2, h5, p {
     color: #333333;
+    font-size: 1px;
 }
 
 .af, .header, .left img, .navigation li:hover::after, .w img, iframe {
