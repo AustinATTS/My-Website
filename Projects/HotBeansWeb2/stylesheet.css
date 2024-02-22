@@ -159,7 +159,10 @@ nav .fa {
     .body p {
         padding-left: 150px;
     }
-}
+    .body2 {
+	padding-left: 0px;
+    }
+)
 
 @media (max-width: 900px) {
     .body h1 {
