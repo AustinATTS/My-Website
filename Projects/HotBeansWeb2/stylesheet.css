@@ -99,7 +99,7 @@ nav img {
     content: "";
     width: 0%;
     height: 2px;
-    background: #333333;
+    background: #4682B4;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -160,7 +160,7 @@ nav .fa {
 @media (max-width: 900px) {
     .navigation li:hover::after {
         width: 100%;
-        background: #4682B4;
+        background: #333333;
     }
 
     .body h1 {
