@@ -157,6 +157,12 @@ nav .fa {
     }
 }
 
+@media (max-height: 450px) {
+    .body h1 {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 900px) {
     .navigation li:hover::after {
         width: 100%;
