@@ -158,18 +158,8 @@ nav .fa {
 }
 
 @media (max-width: 900px) {
-    .navigation li:hover::after {
-        width: 100%;
-        background: #333333;
-    }
-
     .body h1 {
         font-size: 20px;
-    }
-
-    .body p {
-        font-size: 13px;
-        padding-left: 20%;
     }
     
     .navigation li {
