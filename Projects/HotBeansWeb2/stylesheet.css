@@ -35,8 +35,6 @@ h5 {
     text-align: left;
 }
 
-
-
 p {
     color: #333333;
     font-size: 18px;
@@ -159,7 +157,12 @@ nav .fa {
 
 @media (max-width: 900px) {
     .body h1 {
-        font-size: 35px;
+        font-size: 20px;
+    }
+	
+    .body p {
+	font-size: 13px;
+	padding-left: 150px;
     }
     
     .navigation li {
