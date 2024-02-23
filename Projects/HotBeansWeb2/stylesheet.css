@@ -155,9 +155,12 @@ nav .fa {
     }
 }
 
-@media (max-height: 400px) {
+@media (max-height: 450px) {
     .body2 {
         padding-left: 150px;
+    }
+    .body h1 {
+        padding-top: 60px;
     }
 }
 
