@@ -156,13 +156,10 @@ nav .fa {
 }
 
 @media (max-height: 400px) {
-    .body p {
+    .body2 {
         padding-left: 150px;
     }
-    .body2 {
-	padding-left: 0px;
-    }
-)
+}
 
 @media (max-width: 900px) {
     .body h1 {
