@@ -4,27 +4,27 @@
     font-family: "Segoe UI";
 }
 
+h1, h2, h3, h5 {
+    font-weight: 600;
+}
+
 h1 {
     font-size: 35px;
-    font-weight: 600;
 }
 
 h2 {
     color: #333333;
-    font-weight: 600;
     margin: 30px 0;
 }
 
 h3 {
     text-align: center;
-    font-weight: 600;
     margin: 10px 0;
 }
 
 h4 {
     margin-bottom: 25px;
     margin-top: 20px;
-    font-weight: 600;
 }
 
 h5 {
@@ -49,6 +49,10 @@ iframe {
 
 body {
     background: #CCCCCC;
+}
+
+.navigation a, .cf label {
+    font-family: Segoe UI Black;
 }
 
 .header {
@@ -88,7 +92,6 @@ nav img {
 
 .navigation a {
     color: #F76000;
-    font-family: "Segoe UI Black";
     text-decoration: none;
     font-size: 13px;
 }
@@ -204,6 +207,18 @@ nav .fa {
     .navigation ul {
         padding: 30px;
     }
+
+    .row {
+	flex-direction: column;
+    }
+
+    .h {
+	max-height: 1000000px;
+    }
+
+    .s h1 {
+	font-size: 24px;
+    }
 }
 
 .content {
@@ -241,12 +256,6 @@ nav .fa {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-@media (max-width: 900px) {
-    .row {
-        flex-direction: column;
-    }
-}
-
 .h {
     background: #CCCCCC;
     max-height: 275px;
@@ -275,12 +284,6 @@ nav .fa {
 .h:hover img {
     transform: translate(0, -10%);
     transition: 0.5s;
-}
-
-@media (max-width: 900px) {
-    .h {
-        max-height: 1000000px;
-    }
 }
 
 .t img {
@@ -317,12 +320,6 @@ nav .fa {
 .s {
     min-height: 75vh;
     background-image: linear-gradient(rgba(4,8,30,0.7), rgba(4,9,30,0.7)), url("assets/general/sub-header.jpg");
-}
-
-@media(max-width:900px) {
-    .s h1 {
-        font-size: 24px;
-    }
 }
 
 .two {
@@ -372,7 +369,6 @@ form {
 
 .cf label {
     float: left;
-    font-family: "Segoe UI Black";
 }
 
 .frm input, select, .frm textarea {
