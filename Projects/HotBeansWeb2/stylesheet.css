@@ -51,7 +51,7 @@ body {
     background: #CCCCCC;
 }
 
-.navigation a, .cf label {
+.navigation a, .contactForm label {
     font-family: Segoe UI Black;
 }
 
@@ -62,7 +62,7 @@ body {
     position: relative;
 }
 
-.m {
+.main {
     min-height: 100vh;
     background-image: linear-gradient(rgba(4,8,30,0.7), rgba(4,9,30,0.7)), url("assets/general/header.jpg");
 }
@@ -212,11 +212,11 @@ nav .fa {
 	flex-direction: column;
     }
 
-    .h {
+    .hover {
 	max-height: 1000000px;
     }
 
-    .s h1 {
+    .sub h1 {
 	font-size: 24px;
     }
 }
@@ -246,7 +246,7 @@ nav .fa {
     flex-basis: 31%;
 }
 
-.o {
+.orange {
     background: #F76000;
     opacity: 0.75;
     text-align: left;
@@ -256,56 +256,57 @@ nav .fa {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-.h {
+.hover {
     background: #CCCCCC;
     max-height: 275px;
     opacity: 0.7;
 }
 
-.h img {
+.hover img {
     width: 100%;
     border-radius: 10px;
 }
 
-.h p {
+.hover p {
     opacity: 0;
 }
 
-.h:hover p {
+.hover:hover p {
     opacity: 1;
     transition: 1.5s;
 } 
 
-.h:hover {
+.hover:hover {
     max-height: 1000px;
     transition: max-height 1s linear;
 }
 
-.h:hover img {
+.hover:hover img {
     transform: translate(0, -10%);
     transition: 0.5s;
 }
 
-.t img {
+.transparent img {
     width: 100%;
     border-radius: 10px;
 }
 
-.c {
+.contact {
     margin-bottom: 50px;
+    width: 100%;
 }
 
-.f {
+.footer {
     width: 100%;
     padding: 30px 0;
     background: #333333;
 }
 
-.f h4 {
+.footer h4 {
     color: #CCCCCC;
 }
 
-.f p {
+.footer p {
     color: #CCCCCC;
 }
 
@@ -317,7 +318,7 @@ nav .fa {
     padding: 18px 0;
 }
 
-.s {
+.sub {
     min-height: 75vh;
     background-image: linear-gradient(rgba(4,8,30,0.7), rgba(4,9,30,0.7)), url("assets/general/sub-header.jpg");
 }
@@ -327,21 +328,17 @@ nav .fa {
     padding: 30px 2px;
 }
 
-.w img {
+.whoWeAre img {
     width: 100%;
 }
 
-.w h1 {
+.whoWeAre h1 {
     padding-top: 0;
 }
 
-.w p {
+.whoWeAre p {
     padding: 15px 0 25px;
     text-align: left;
-}
-
-.c {
-    width: 100%;
 }
 
 .bf {
@@ -359,19 +356,19 @@ form {
     padding: 10px 20px;
 }
 
-.af {
+.applicationForm {
     width: 100%;
 }
 
-.af td {
+.applicationForm td {
     padding-left: 5px;
 }
 
-.cf label {
+.contactForm label {
     float: left;
 }
 
-.frm input, select, .frm textarea {
+.form input, select, .form textarea {
     width: 100%;
     padding: 10px;
     margin: 15px 0;
@@ -383,13 +380,13 @@ form {
     display: inline;
 }
 
-.af input[type=radio] {
+.applicationForm input[type=radio] {
 	width: auto;
 	margin-left: 20px;
 	align-content: center;
 }
 
-.frm input[type=submit] {
+.form input[type=submit] {
     display: inline-block;
     text-decoration: none;
     color: #F76000;
@@ -402,13 +399,13 @@ form {
     margin-bottom: 15px;
 }
 
-.frm input[type=submit]:hover {
+.form input[type=submit]:hover {
     border: 1px solid #333333;
     background: #333333;
     transition: 1s;
 }
 
-.a div {
+.apply div {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
@@ -422,7 +419,7 @@ form {
     
 }
 
-.a p {
+.apply p {
     padding: 0;
     text-align: left;
 }
@@ -486,14 +483,14 @@ form {
 	width: 100%;
 }
 
-.img img {
+.image img {
 	border-radius: 50%;
 }
 
-.h p {
+.hover p {
     text-align: left;
 }
 
-.t {
+.ttransparent {
     text-align: left;
 }
