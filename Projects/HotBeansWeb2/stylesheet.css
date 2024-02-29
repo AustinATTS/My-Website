@@ -4,51 +4,9 @@
     font-family: "Segoe UI";
 }
 
-h1, h2, h3, h5 {
-    font-weight: 600;
-}
-
-h1 {
-    font-size: 35px;
-}
-
-h2 {
-    color: #333333;
-    margin: 30px 0;
-}
-
-h3 {
-    text-align: center;
-    margin: 10px 0;
-}
-
-h4 {
-    margin-bottom: 25px;
-    margin-top: 20px;
-}
-
-h5 {
-    font-size: 20px;
-    margin-bottom: 5px;
-    color: #333333;
-    font-weight: 400;
-    text-align: left;
-}
-
-p {
-    color: #333333;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-}
-
-iframe {
-    width: 100%;
-}
-
 body {
     background: #CCCCCC;
+    max-width: 100%;
 }
 
 .navigation a, .contactForm label {
@@ -113,20 +71,18 @@ nav img {
 .body {
     width: 90%;
     color: #F76000;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
     text-align: center;
+    padding: 2% 5%;
+
 }
 
 .body h1 {
     font-size: 62px;
 }
 
-.body p {
-    margin: 10px 0 40px;
-    color: #F76000;
+.body h2 {
+    padding-top: 5%;
 }
 
 .button {
@@ -135,6 +91,7 @@ nav img {
     color: #F76000;
     border: 1px solid #F76000;
     padding: 12px 34px;
+    margin-top: 5%;
     font-size: 13px;
     background: transparent;
     position: relative;
@@ -152,30 +109,13 @@ nav .fa {
     display: none;
 }
 
-@media (max-height: 600px) {
-    .body h1 {
-        font-size: 20px;
-    }
-}
-
-@media (max-height: 450px) {
-    .body2 {
-        padding-left: 150px;
-    }
-    .body h1 {
-        padding-top: 60px;
-    }
+@media (max-width: 435px) {
+	.body h1 {
+		font-size: 45px;
+	}
 }
 
 @media (max-width: 900px) {
-    .body h1 {
-        font-size: 20px;
-    }
-	
-    .body p {
-	font-size: 13px;
-    }
-    
     .navigation li {
         display: block;
     }
