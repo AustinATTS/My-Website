@@ -112,8 +112,7 @@ nav img {
 .body {
     width: 100%;
     color: #F76000;
-    position: absolute;
-    top: 50%;
+    position: relative;
     text-align: center;
 }
 
