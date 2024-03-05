@@ -35,6 +35,8 @@ h5 {
     text-align: left;
 }
 
+
+
 p {
     color: #333333;
     font-size: 18px;
@@ -51,10 +53,6 @@ body {
     background: #CCCCCC;
 }
 
-.navigation a, .contactForm label {
-    font-family: Segoe UI Black;
-}
-
 .header {
     width: 100%;
     background-position: center;
@@ -62,7 +60,7 @@ body {
     position: relative;
 }
 
-.main {
+.m {
     min-height: 100vh;
     background-image: linear-gradient(rgba(4,8,30,0.7), rgba(4,9,30,0.7)), url("assets/general/header.jpg");
 }
@@ -92,6 +90,7 @@ nav img {
 
 .navigation a {
     color: #F76000;
+    font-family: "Segoe UI Black";
     text-decoration: none;
     font-size: 13px;
 }
@@ -100,7 +99,7 @@ nav img {
     content: "";
     width: 0%;
     height: 2px;
-    background: #4682B4;
+    background: #333333;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -111,19 +110,19 @@ nav img {
 }
 
 .body {
-    width: 90%;
+    width: 100%;
     color: #F76000;
-    position: relative;
+    position: absolute;
+    top: 50%;
     text-align: center;
-    padding: 2% 5%;
 }
 
 .body h1 {
     font-size: 62px;
 }
 
-.body h2 {
-    padding-top: 5%;
+.body p {
+    margin: 10px 0 40px;
     color: #F76000;
 }
 
@@ -133,7 +132,6 @@ nav img {
     color: #F76000;
     border: 1px solid #F76000;
     padding: 12px 34px;
-    margin-top: 5%;
     font-size: 13px;
     background: transparent;
     position: relative;
@@ -151,13 +149,17 @@ nav .fa {
     display: none;
 }
 
-@media (max-width: 435px) {
-	.body h1 {
-		font-size: 45px;
-	}
+@media (max-height: 600px) {
+    .body h1 {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 900px) {
+    .body h1 {
+        font-size: 20px;
+    }
+    
     .navigation li {
         display: block;
     }
@@ -189,18 +191,6 @@ nav .fa {
     .navigation ul {
         padding: 30px;
     }
-
-    .row {
-	flex-direction: column;
-    }
-
-    .hover {
-	max-height: 1000000px;
-    }
-
-    .sub h1 {
-	font-size: 24px;
-    }
 }
 
 .content {
@@ -228,7 +218,7 @@ nav .fa {
     flex-basis: 31%;
 }
 
-.orange {
+.o {
     background: #F76000;
     opacity: 0.75;
     text-align: left;
@@ -238,57 +228,68 @@ nav .fa {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-.hover {
+@media (max-width: 900px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.h {
     background: #CCCCCC;
     max-height: 275px;
     opacity: 0.7;
 }
 
-.hover img {
+.h img {
     width: 100%;
     border-radius: 10px;
 }
 
-.hover p {
+.h p {
     opacity: 0;
 }
 
-.hover:hover p {
+.h:hover p {
     opacity: 1;
     transition: 1.5s;
 } 
 
-.hover:hover {
+.h:hover {
     max-height: 1000px;
     transition: max-height 1s linear;
 }
 
-.hover:hover img {
+.h:hover img {
     transform: translate(0, -10%);
     transition: 0.5s;
 }
 
-.transparent img {
+@media (max-width: 900px) {
+    .h {
+        max-height: 1000000px;
+    }
+}
+
+.t img {
     width: 100%;
     border-radius: 10px;
 }
 
-.contact {
+.c {
     margin-bottom: 50px;
-    width: 100%;
 }
 
-.footer {
+.f {
     width: 100%;
     padding: 30px 0;
     background: #333333;
 }
 
-.footer h4 {
+.f h4 {
     color: #CCCCCC;
 }
 
-.footer p {
+.f p {
     color: #CCCCCC;
 }
 
@@ -300,9 +301,15 @@ nav .fa {
     padding: 18px 0;
 }
 
-.sub {
+.s {
     min-height: 75vh;
     background-image: linear-gradient(rgba(4,8,30,0.7), rgba(4,9,30,0.7)), url("assets/general/sub-header.jpg");
+}
+
+@media(max-width:900px) {
+    .s h1 {
+        font-size: 24px;
+    }
 }
 
 .two {
@@ -310,17 +317,21 @@ nav .fa {
     padding: 30px 2px;
 }
 
-.whoWeAre img {
+.w img {
     width: 100%;
 }
 
-.whoWeAre h1 {
+.w h1 {
     padding-top: 0;
 }
 
-.whoWeAre p {
+.w p {
     padding: 15px 0 25px;
     text-align: left;
+}
+
+.c {
+    width: 100%;
 }
 
 .bf {
@@ -338,19 +349,20 @@ form {
     padding: 10px 20px;
 }
 
-.applicationForm {
+.af {
     width: 100%;
 }
 
-.applicationForm td {
+.af td {
     padding-left: 5px;
 }
 
-.contactForm label {
+.cf label {
     float: left;
+    font-family: "Segoe UI Black";
 }
 
-.form input, select, .form textarea {
+.frm input, select, .frm textarea {
     width: 100%;
     padding: 10px;
     margin: 15px 0;
@@ -362,13 +374,13 @@ form {
     display: inline;
 }
 
-.applicationForm input[type=radio] {
+.af input[type=radio] {
 	width: auto;
 	margin-left: 20px;
 	align-content: center;
 }
 
-.form input[type=submit] {
+.frm input[type=submit] {
     display: inline-block;
     text-decoration: none;
     color: #F76000;
@@ -381,13 +393,13 @@ form {
     margin-bottom: 15px;
 }
 
-.form input[type=submit]:hover {
+.frm input[type=submit]:hover {
     border: 1px solid #333333;
     background: #333333;
     transition: 1s;
 }
 
-.apply div {
+.a div {
     display: flex;
     align-items: center;
     margin-bottom: 40px;
@@ -401,7 +413,7 @@ form {
     
 }
 
-.apply p {
+.a p {
     padding: 0;
     text-align: left;
 }
@@ -465,14 +477,14 @@ form {
 	width: 100%;
 }
 
-.image img {
+.img img {
 	border-radius: 50%;
 }
 
-.hover p {
+.h p {
     text-align: left;
 }
 
-.transparent {
+.t {
     text-align: left;
 }
