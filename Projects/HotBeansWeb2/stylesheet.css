@@ -110,19 +110,22 @@ nav img {
 }
 
 .body {
-    width: 100%;
+    width: 80%;
+	padding: 0 10% 0 10%;
     color: #F76000;
     position: relative;
     text-align: center;
 }
 
 .body h1 {
-    font-size: 62px;
+    font-size: 100px;
+	padding-top: 5vh;
 }
 
-.body p {
-    margin: 10px 0 40px;
+.body h2 {
+    margin: 80px 0 60px;
     color: #F76000;
+	font-size: 30px;
 }
 
 .button {
@@ -135,7 +138,7 @@ nav img {
     background: transparent;
     position: relative;
     cursor: pointer;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .button:hover {
@@ -148,19 +151,25 @@ nav .fa {
     display: none;
 }
 
-@media (max-height: 600px) {
-    .body h1 {
-        font-size: 20px;
-    }
+@media (max-width: 760px) {
+	.body h1 {
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 400px) {
+	.body h1 {
+		font-size: 30px;
+	}
+	
+	.body h2 {
+		font-size: 20px;
+	}
 }
 
 @media (max-width: 900px) {
     .navigation li::after {
         background: #333333;
-    }
-
-    .body h1 {
-        font-size: 20px;
     }
     
     .navigation li {
