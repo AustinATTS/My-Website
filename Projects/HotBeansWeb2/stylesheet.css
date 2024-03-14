@@ -139,6 +139,7 @@ nav img {
     position: relative;
     cursor: pointer;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .button:hover {
