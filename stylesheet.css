@@ -411,6 +411,7 @@ nav .fa {
 .docs {
     float: left;
     color: #F76000;
+    position: relative;
 }
 
 .h p, .t {
