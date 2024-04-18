@@ -409,9 +409,12 @@ nav .fa {
 
 
 .docs {
-    float: left;
+    text-align: left;
+}
+
+.docs a {
+    text-decoration: none;
     color: #F76000;
-    position: relative;
 }
 
 .h p, .t {
