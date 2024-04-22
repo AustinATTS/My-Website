@@ -29,7 +29,7 @@
 									<a href='https://www.austinatts.co.uk/Projects/HotBeansWeb'>
 										<img src='https://www.austinatts.co.uk/Projects/HotBeansWeb/assets/general/logo.png' alt='Company Logo' style='max-width: 200px;'>
 									</a>
-									<h1 style='font-family: Segoe UI Black; color: #F76000; padding-left: 2.5%;'>
+									<h1 style='font-family: Selawik Semibold; color: #F76000; padding-left: 2.5%;'>
 										Job Application Form Submission
 									</h1>
 								</div>
@@ -105,7 +105,7 @@
 									<a href='https://www.austinatts.co.uk/Projects/HotBeansWeb'>
 										<img src='https://www.austinatts.co.uk/Projects/HotBeansWeb/assets/general/logo.png' alt='Company Logo' style='max-width: 200px;'>
 									</a>
-									<h1 style='font-family: Segoe UI Black; color: #F76000; padding-left: 2.5%;'>
+									<h1 style='font-family: Selawik Semibold; color: #F76000; padding-left: 2.5%;'>
 										Job Application Form Submission
 									</h1>
 								</div>
