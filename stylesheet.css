@@ -1,3 +1,13 @@
+@font-face {
+  font-family: fontATTSNormal;
+  src: url(assets/fonts/Selawik-owy7A.ttf);
+}
+
+@font-face {
+  font-family: fontATTSHeader;
+  src: url(assets/fonts/SelawikBold-0W09o.ttf);
+}
+
 h1, h2, h3, h4 {
     font-weight: 600;
 }
@@ -18,7 +28,7 @@ h2, h5, p {
 }
 
 .cf label, .navigation a {
-    font-family: "Selawik Semibold";
+    font-family: "fontATTSHeader";
 }
 
 .collumn, .right div {
@@ -28,7 +38,7 @@ h2, h5, p {
 * {
     margin: 0;
     padding: 0;
-    font-family: "Selawik";
+    font-family: "fontATTSNormal";
 }
 
 h1 {
