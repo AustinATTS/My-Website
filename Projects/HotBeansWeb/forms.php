@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['formContact'])) {
 								<a href='https://www.austinatts.co.uk/Projects/HotBeansWeb'>
 									<img src='https://www.austinatts.co.uk/Projects/HotBeansWeb/assets/general/logo.png' alt='Company Logo' style='max-width: 200px;'>
 								</a>
-								<h1 style='font-family: Segoe UI; color: #F76000; padding-left: 2.5%;'>
+								<h1 style='font-family:Selawik; color: #F76000; padding-left: 2.5%;'>
 									Job Application Form Submission
  								</h1>
 							</div>
@@ -102,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['formApply'])) {
 								<a href='https://www.austinatts.co.uk/Projects/HotBeansWeb'>
 									<img src='https://www.austinatts.co.uk/Projects/HotBeansWeb/assets/general/logo.png' alt='Company Logo' style='max-width: 200px;'>
 								</a>
-								<h1 style='font-family: Segoe UI; color: #F76000; padding-left: 2.5%;'>
+								<h1 style='font-family: Selawik; color: #F76000; padding-left: 2.5%;'>
 									Job Application Form Submission
 								</h1>
 							</div>
